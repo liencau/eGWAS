@@ -1,0 +1,2 @@
+#perl generate_the_means_of_ratio_each_DUPs.pl ../dup_pair_ratio_for_503lines.txt the_means_for_ratio_of_3228_DUPs.txt
+perl generate_the_means_of_ratio_each_DUPs.pl ../dup_pair_ratio_for_503lines.txt the_means_for_ratio_of_3228_DUPs_included_na.txt
