@@ -1,0 +1,1 @@
+perl exlusive_the_undifferential_DGPs.pl /NAS2/lien/analysis_of_503_inbred_lines_subgenome/maize_503genotypes_expression_values_FPKM/dup_pair_ratio_for_503lines.txt dup_pair_ratio_for_503lines_exlusive_undifferential_pairs.txt
