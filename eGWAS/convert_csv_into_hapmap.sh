@@ -1,0 +1,1 @@
+perl convert_csv_into_hapmap.pl GAPIT_RNAseq_hmp_438K_imputed2.csv GAPIT_RNAseq_hmp_438K_imputed.hapmap &

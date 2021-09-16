@@ -1,0 +1,1 @@
+perl replace_small_to_large_for_hapmap.pl GAPIT_RNAseq_hmp_438K_imputed.hapmap changed_GAPIT_RNAseq_hmp_438K_imputed.hapmap &

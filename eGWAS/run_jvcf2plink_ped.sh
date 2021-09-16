@@ -1,0 +1,1 @@
+perl /NAS1/zeamxie/perl_scripts_GWAS/jvcf2plink_map3.pl GAPIT_RNAseq_hmp_438K_imputed.jvcf GAPIT_RNAseq_hmp_438K_imputed.map GAPIT_RNAseq_hmp_438K_imputed.ped > run_jvcf2plink_ped.report 
