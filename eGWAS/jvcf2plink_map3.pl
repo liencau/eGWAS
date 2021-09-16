@@ -22,7 +22,7 @@ while(<SNP>){
     my $snp_infor = join("\t",@inbred);
     my ($mis_rate,$maf,$third_base) = &maf($snp_infor);
     if($third_base > 0){
-        print "$_\n";
+        print "$_\n"; 
         next;
     }
     my $tem_chr = $chr;
@@ -30,7 +30,7 @@ while(<SNP>){
     print MAP "$tem_chr\t$chr\_$pos\t$pos\n";
     ++ $snp_nu;
     if($inbred_nu != @inbred){
-        ++ $snp_wrong;
+	++ $snp_wrong;
         next;
     }
     for(my $i= 0; $i< $inbred_nu; ++ $i){
@@ -39,10 +39,10 @@ while(<SNP>){
     }
 }
 
-my $flag = 1;
+my $flag = 1; 
 foreach(@head){
     my $snp_infor = join("\t",@{$hash_snp{$_}});
-       $snp_infor =~ s/N/0/g;
+       $snp_infor =~ s/X/0/g;
        $snp_infor =~ tr/ACGTx/12340/;
     print PED "family$flag\t$_\t0\t0\t0\t0\t$snp_infor\n";
     ++ $flag;
@@ -82,4 +82,3 @@ sub  usage{
 DIE
     exit 1;
 }
-
